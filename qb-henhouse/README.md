@@ -1,7 +1,6 @@
-# qb-tequilala
-
-This is a Tequi-la-la job script for QBCore that uses qb-target and nh-context, this was forked from https://github.com/DrBlackBeard095/Qb-Burgershot all credit goes to him. All I did was turn it into a Tequi-la-la job!
-
+# qb-henhouse
+This is a Hen House Job for QBCore that uses qb-target and nh menus this was forked from https://github.com/DrBlackBeard095/Qb-Burgershot all credit goes to him. All I did was turn it into a Henhouse Job!
+ 
 
 ## REQUIREMENTS
 
@@ -16,9 +15,9 @@ nh-context https://github.com/nerohiro/nh-context
 ### Job
 
 ```
-["tequilala"] = {
-		label = "Tequi-la-la",
-		defaultDuty = true,
+["henhouse"] = {
+		label = "Hen House",
+		defaultDuty = false,
 		grades = {
             ['0'] = {
                 name = "DJ",
@@ -46,10 +45,16 @@ nh-context https://github.com/nerohiro/nh-context
 
 ``` 
 
-## Add this to qb-bossmenu config.lua
+## Add this to qb-management config.lua
+```up top
+    ['henhouse'] = {
+        vector3(-302.1, 6269.16, 31.48),
+    },
 
-```
-['tequilala'] = vector3(-568.577, 291.09, 79.18)
+``` vector secondary
+    ['henhouse'] = {
+        { coords = vector3(-302.1, 6269.16, 31.48), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
+    },
 ```
 
-#### Other than that it should be good to go!
+#### Other than that add your own food items you want and should be good to go!
