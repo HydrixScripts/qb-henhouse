@@ -50,8 +50,8 @@ look on my github for nh context and keyboard combo!
     ['henhouse'] = {
         vector3(-302.1, 6269.16, 31.48),
     },
-
-``` vector secondary
+```
+``` 
     ['henhouse'] = {
         { coords = vector3(-302.1, 6269.16, 31.48), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
     },
