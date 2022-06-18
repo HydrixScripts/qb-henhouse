@@ -8,7 +8,7 @@ PolyZone https://github.com/mkafrin/PolyZone
 
 qb-target https://github.com/BerkieBb/qb-target
 
-nh-context https://github.com/nerohiro/nh-context
+look on my github for nh context and keyboard combo!
 
 ## Add this to the shared.lua in qb-core
 
